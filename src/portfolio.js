@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ethan Coomber",
+  title: "Hi all, I'm Ethan",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -73,10 +73,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -87,10 +83,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
