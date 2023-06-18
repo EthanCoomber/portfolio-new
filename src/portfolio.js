@@ -141,7 +141,7 @@ const workExperiences = {
       company: "Publicis Sapient",
       companylogo: require("./assets/images/publicisSapient.jpeg"),
       date: "June 2022 – August 2022",
-      desc: "Deployed a trading platform with real-time stock data and high-speed trade executions",
+      desc: "Deployed a financial portfolio app with real-time stock data and high-speed trade executions",
       descBullets: [
         "Utilized React Native and Figma for frontend interface/design and Java Spring Boot, GraphQL, and PostgreSQL for backend development.",
         "Completed an intensive 3-week full stack development course, gained experience in frontend technologies (React, Angular), databases (MongoDB, NoSQL, MySQL), and backend services (REST APIs, Spring Boot)."
