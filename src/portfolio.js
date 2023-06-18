@@ -23,7 +23,7 @@ const greeting = {
   username: "Ethan Coomber",
   title: "Hi all, I'm Ethan",
   subTitle: emoji(
-    "I'm a passionate Full Stack Software Developer! I have experience building Web and Mobile applications with React / JavaScript / Nodejs among other libraries and frameworks."
+    "I'm a passionate Full Stack Software Developer! I have experience building Web and Mobile applications with React / JavaScript / Node.js among other libraries and frameworks."
   ),
   resumeLink:
     require("./assets/resume/Ethan_Coomber_Resume.pdf"), // Set to empty to hide the button
