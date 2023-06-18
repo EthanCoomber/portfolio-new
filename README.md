@@ -1,4 +1,4 @@
-# Ethan's Personal Portfolio 
+# Ethan's Personal Portfolio :grinning:
 <!-- 
 ## Table of Contents
 - [Sections](#sections)
@@ -54,7 +54,7 @@ npm install
 # Start a local dev server
 npm start
 ```
-
+<!-- 
 ## Deployment
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
@@ -77,7 +77,7 @@ You could also host directly with Netlify by linking your own repository.
 
 [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
 
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
+For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify). -->
 
 
 ## Technologies Used 
