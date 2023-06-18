@@ -26,7 +26,7 @@ const greeting = {
     "I'm a passionate Full Stack Software Developer! I have experience building Web and Mobile applications with React / JavaScript / Nodejs among other libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    require("./assets/resume/Ethan_Coomber_Resume.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -175,29 +175,37 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Full Stack Projects",
+  subtitle: "Here are some projects I coded from start to finish with a deployed frontend and backend.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/stock.jpeg"),
+      projectName: "Stock Tracker",
+      projectDesc: "Allows users to add tickers to a watchlist and pull up a graph of stock price history",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://stock-frontend-nine.vercel.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/EthanCoomber/stock"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/test.webp"),
+      projectName: "Quiz Platform",
+      projectDesc: "Allows users to add study sets and take quizzes while tracking their progress",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://quiz-6ceb9.web.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/EthanCoomber/quiz_platform"
         }
       ]
     }
