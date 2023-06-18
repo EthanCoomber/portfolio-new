@@ -1,6 +1,7 @@
 {
+  "author": "Ethan Coomber",
   "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "name": "Ethan's Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
