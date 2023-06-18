@@ -3,7 +3,7 @@
   "name": "Ethan's Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ethan'sPortfolio.com'",
+  "homepage": "https://Ethan'sPortfolio.com",
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
