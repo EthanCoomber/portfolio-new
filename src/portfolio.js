@@ -162,7 +162,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Full Stack Projects",
-  subtitle: "Here are some projects I coded from start to finish with a deployed frontend and backend.",
+  subtitle: "Here are some deployed projects of mine.",
   projects: [
     {
       image: require("./assets/images/stock.jpeg"),
