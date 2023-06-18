@@ -124,8 +124,8 @@ const educationInfo = {
       duration: "September 2019 - May 2023",
       desc: "Magna Cum Laude",
       descBullets: [
-        "Major in Computer Science (Honors)",
-        "Minor in Mathematics"
+        "Major: Computer Science (Honors)",
+        "Minor: Mathematics"
       ]
     }
   ]
@@ -137,29 +137,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineering Intern",
+      company: "Publicis Sapient",
+      companylogo: require("./assets/images/publicisSapient.jpeg"),
+      date: "June 2022 – August 2022",
+      desc: "Deployed a trading platform with real-time stock data and high-speed trade executions",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Utilized React Native and Figma for frontend interface/design and Java Spring Boot, GraphQL, and PostgreSQL for backend development.",
+        "Completed an intensive 3-week full stack development course, gained experience in frontend technologies (React, Angular), databases (MongoDB, NoSQL, MySQL), and backend services (REST APIs, Spring Boot)."
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
