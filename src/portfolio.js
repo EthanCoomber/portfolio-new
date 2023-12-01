@@ -165,7 +165,7 @@ const bigProjects = {
   subtitle: "Here are some deployed projects of mine.",
   projects: [
     {
-      image: require("./assets/images/youtube.png"),
+      image: require("./assets/images/youtube1.avif"),
       projectName: "YouTube Clone",
       projectDesc: "Allows users to enjoy many of the same operations as youtube.",
       footerLink: [
