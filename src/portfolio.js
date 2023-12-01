@@ -165,6 +165,22 @@ const bigProjects = {
   subtitle: "Here are some deployed projects of mine.",
   projects: [
     {
+      image: require("./assets/images/youtube.png"),
+      projectName: "YouTube Clone",
+      projectDesc: "Allows users to enjoy many of the same operations as youtube.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ec-youtube-clone.netlify.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/EthanCoomber/youtube_clone"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/stock.jpeg"),
       projectName: "Stock Tracker",
       projectDesc: "Allows users to add tickers to a watchlist and pull up a graph of stock price history",
