@@ -165,6 +165,22 @@ const bigProjects = {
   subtitle: "Here are some deployed projects of mine.",
   projects: [
     {
+      image: require("./assets/images/apple_logo.jpeg"),
+      projectName: "E-commerce website",
+      projectDesc: "Allows users to buy and sell tech products, similar to Apple's website.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://e-commerce-ec.payloadcms.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/EthanCoomber"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/youtube1.avif"),
       projectName: "YouTube Clone",
       projectDesc: "Allows users to enjoy many of the same operations as youtube.",
@@ -176,22 +192,6 @@ const bigProjects = {
         {
           name: "GitHub",
           url: "https://github.com/EthanCoomber/youtube_clone"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/stock.jpeg"),
-      projectName: "Stock Tracker",
-      projectDesc: "Allows users to add tickers to a watchlist and pull up a graph of stock price history",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://stock-frontend-nine.vercel.app/"
-        },
-        {
-          name: "GitHub",
-          url: "https://github.com/EthanCoomber/stock"
         }
         //  you can add extra buttons here.
       ]
