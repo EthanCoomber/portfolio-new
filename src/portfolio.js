@@ -175,13 +175,13 @@ const bigProjects = {
         },
         {
           name: "GitHub",
-          url: "https://github.com/EthanCoomber"
+          url: "https://github.com/EthanCoomber/e-commerce"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/youtube1.avif"),
+      image: require("./assets/images/youtube-red.jpeg"),
       projectName: "YouTube Clone",
       projectDesc: "Allows users to enjoy many of the same operations as youtube.",
       footerLink: [
@@ -197,7 +197,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/test.webp"),
+      image: require("./assets/images/learning.webp"),
       projectName: "Quiz Platform",
       projectDesc: "Allows users to add study sets and take quizzes while tracking their progress",
       footerLink: [
