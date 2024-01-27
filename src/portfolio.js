@@ -164,18 +164,34 @@ const bigProjects = {
   title: "Full Stack Projects",
   subtitle: "Here are some deployed projects of mine.",
   projects: [
+    // {
+    //   image: require("./assets/images/apple_logo.jpeg"),
+    //   projectName: "E-commerce website",
+    //   projectDesc: "Allows users to buy and sell tech products, similar to Apple's website.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://e-commerce-ec.payloadcms.app/"
+    //     },
+    //     {
+    //       name: "GitHub",
+    //       url: "https://github.com/EthanCoomber/e-commerce"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
     {
-      image: require("./assets/images/apple_logo.jpeg"),
-      projectName: "E-commerce website",
-      projectDesc: "Allows users to buy and sell tech products, similar to Apple's website.",
+      image: require("./assets/images/cars.jpg"),
+      projectName: "Car rental website",
+      projectDesc: "Allows users to browse and search for available cars to rent.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://e-commerce-ec.payloadcms.app/"
+          url: "https://car-showcase-kappa-lac.vercel.app/"
         },
         {
           name: "GitHub",
-          url: "https://github.com/EthanCoomber/e-commerce"
+          url: "https://github.com/EthanCoomber/Car_showcase"
         }
         //  you can add extra buttons here.
       ]
