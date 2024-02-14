@@ -23,7 +23,7 @@ const greeting = {
   username: "Ethan Coomber",
   title: "Hi all, I'm Ethan",
   subTitle: emoji(
-    "I'm a passionate Full Stack Software Developer! I have experience building Web and Mobile applications with React / JavaScript / Node.js among other libraries and frameworks."
+    "I'm a passionate full-stack software developer! I have experience building web and mobile applications with React / JavaScript / Node.js among other libraries and frameworks."
   ),
   resumeLink:
     require("./assets/resume/Ethan_Coomber_Resume.pdf"), // Set to empty to hide the button
@@ -45,10 +45,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO LOVES EXPLORING NEW TECH STACKS",
+  subTitle: "FULL-STACK DEVELOPER WHO LOVES EXPLORING NEW TECH STACKS",
   skills: [
     emoji(
-      "⚡ Develop interactive frontend / User Interfaces for your applications"
+      "⚡ Develop interactive frontend / user Interfaces for your applications"
     ),
     emoji("⚡ Start from the ground up exploring every corner of the software development lifecycle"),
     emoji(
@@ -212,21 +212,21 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/learning.webp"),
-      projectName: "Quiz Platform",
-      projectDesc: "Allows users to add study sets and take quizzes while tracking their progress",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://quiz-6ceb9.web.app/"
-        },
-        {
-          name: "GitHub",
-          url: "https://github.com/EthanCoomber/quiz_platform"
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/learning.webp"),
+    //   projectName: "Quiz Platform",
+    //   projectDesc: "Allows users to add study sets and take quizzes while tracking their progress",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://quiz-6ceb9.web.app/"
+    //     },
+    //     {
+    //       name: "GitHub",
+    //       url: "https://github.com/EthanCoomber/quiz_platform"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
