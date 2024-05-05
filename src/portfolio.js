@@ -127,6 +127,17 @@ const educationInfo = {
         "Major: Computer Science (Honors)",
         "Minor: Mathematics"
       ]
+    },
+    {
+      schoolName: "Northeastern University",
+      logo: require("./assets/images/northeastern.png"),
+      subHeader: "Master's in Computer Science",
+      duration: "September 2024 - May 2026",
+      // desc: "Magna Cum Laude",
+      // descBullets: [
+      //   "Major: Computer Science (Honors)",
+      //   "Minor: Mathematics"
+      // ]
     }
   ]
 };
@@ -145,6 +156,18 @@ const workExperiences = {
       descBullets: [
         "Utilized React Native and Figma for frontend interface/design and Java Spring Boot, GraphQL, and PostgreSQL for backend development.",
         "Completed an intensive 3-week full stack development course, gained experience in frontend technologies (React, Angular), databases (MongoDB, NoSQL, MySQL), and backend services (REST APIs, Spring Boot)."
+      ]
+    },
+    {
+      role: "Software Development Intern",
+      company: "Earth Brands",
+      companylogo: require("./assets/images/earthbrands.jpeg"),
+      date: "February 2024 – Present",
+      desc: "Developing a custom B2B portal facilitating client purchases of Earth Brands’ products. ",
+      descBullets: [
+        "Utilize React Native, GraphQL, Javascript, and Next.js for full-stack development.",
+        "Work with Sales and Marketing departments to identify improvements and enhance user experience."
+
       ]
     }
   ]
