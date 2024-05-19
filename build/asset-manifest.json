@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ed84f843.css",
-    "main.js": "/static/js/main.8a53db79.js",
+    "main.js": "/static/js/main.23607f50.js",
     "static/css/64.0774fdc1.chunk.css": "/static/css/64.0774fdc1.chunk.css",
     "static/js/64.073ba154.chunk.js": "/static/js/64.073ba154.chunk.js",
     "static/css/769.2283eebb.chunk.css": "/static/css/769.2283eebb.chunk.css",
@@ -16,11 +16,10 @@
     "static/media/earthbrands.jpeg": "/static/media/earthbrands.191ebfb14ae1cbd7c406.jpeg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/northeastern.png": "/static/media/northeastern.989de61b1684d19f291d.png",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.ed84f843.css.map": "/static/css/main.ed84f843.css.map",
-    "main.8a53db79.js.map": "/static/js/main.8a53db79.js.map",
+    "main.23607f50.js.map": "/static/js/main.23607f50.js.map",
     "64.0774fdc1.chunk.css.map": "/static/css/64.0774fdc1.chunk.css.map",
     "64.073ba154.chunk.js.map": "/static/js/64.073ba154.chunk.js.map",
     "769.2283eebb.chunk.css.map": "/static/css/769.2283eebb.chunk.css.map",
@@ -28,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.ed84f843.css",
-    "static/js/main.8a53db79.js"
+    "static/js/main.23607f50.js"
   ]
 }

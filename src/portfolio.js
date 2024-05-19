@@ -128,17 +128,17 @@ const educationInfo = {
         "Minor: Mathematics"
       ]
     },
-    {
-      schoolName: "Northeastern University",
-      logo: require("./assets/images/northeastern.png"),
-      subHeader: "Master's in Computer Science",
-      duration: "September 2024 - May 2026",
-      // desc: "Magna Cum Laude",
-      // descBullets: [
-      //   "Major: Computer Science (Honors)",
-      //   "Minor: Mathematics"
-      // ]
-    }
+    // {
+    //   schoolName: "Northeastern University",
+    //   logo: require("./assets/images/northeastern.png"),
+    //   subHeader: "Master's in Computer Science",
+    //   duration: "September 2024 - May 2026",
+    //   // desc: "Magna Cum Laude",
+    //   // descBullets: [
+    //   //   "Major: Computer Science (Honors)",
+    //   //   "Minor: Mathematics"
+    //   // ]
+    // }
   ]
 };
 
