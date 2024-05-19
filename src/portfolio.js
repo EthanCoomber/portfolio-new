@@ -159,7 +159,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Development Intern",
+      role: "Software Developer",
       company: "Earth Brands",
       companylogo: require("./assets/images/earthbrands.jpeg"),
       date: "February 2024 – Present",
