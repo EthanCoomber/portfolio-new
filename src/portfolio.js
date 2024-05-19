@@ -26,7 +26,7 @@ const greeting = {
     "I'm a passionate full-stack software developer! I have experience building web and mobile applications with React / JavaScript / Node.js among other libraries and frameworks."
   ),
   resumeLink:
-    require("./assets/resume/Ethan_Coomber_Resume.pdf"), // Set to empty to hide the button
+    require("./assets/resume/2024_job_resume.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

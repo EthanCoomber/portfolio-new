@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ed84f843.css",
-    "main.js": "/static/js/main.7c8ee333.js",
+    "main.js": "/static/js/main.e300b686.js",
     "static/css/64.0774fdc1.chunk.css": "/static/css/64.0774fdc1.chunk.css",
     "static/js/64.073ba154.chunk.js": "/static/js/64.073ba154.chunk.js",
     "static/css/769.2283eebb.chunk.css": "/static/css/769.2283eebb.chunk.css",
@@ -9,7 +9,7 @@
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/middleburyLogo.png": "/static/media/middleburyLogo.b994f791107e742e8f6c.png",
     "static/media/cars.jpg": "/static/media/cars.63615f4dc4500c5c0bb3.jpg",
-    "static/media/Ethan_Coomber_Resume.pdf": "/static/media/Ethan_Coomber_Resume.f23edd770d7a882eb8a1.pdf",
+    "static/media/2024_job_resume.pdf": "/static/media/2024_job_resume.7b76ed571e9efc1ea666.pdf",
     "static/media/publicisSapient.jpeg": "/static/media/publicisSapient.28c10017118268678250.jpeg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -19,7 +19,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.ed84f843.css.map": "/static/css/main.ed84f843.css.map",
-    "main.7c8ee333.js.map": "/static/js/main.7c8ee333.js.map",
+    "main.e300b686.js.map": "/static/js/main.e300b686.js.map",
     "64.0774fdc1.chunk.css.map": "/static/css/64.0774fdc1.chunk.css.map",
     "64.073ba154.chunk.js.map": "/static/js/64.073ba154.chunk.js.map",
     "769.2283eebb.chunk.css.map": "/static/css/769.2283eebb.chunk.css.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.ed84f843.css",
-    "static/js/main.7c8ee333.js"
+    "static/js/main.e300b686.js"
   ]
 }
