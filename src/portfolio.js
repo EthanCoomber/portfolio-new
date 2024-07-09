@@ -128,17 +128,17 @@ const educationInfo = {
         "Minor: Mathematics"
       ]
     },
-    // {
-    //   schoolName: "Northeastern University",
-    //   logo: require("./assets/images/northeastern.png"),
-    //   subHeader: "Master's in Computer Science",
-    //   duration: "September 2024 - May 2026",
-    //   // desc: "Magna Cum Laude",
-    //   // descBullets: [
-    //   //   "Major: Computer Science (Honors)",
-    //   //   "Minor: Mathematics"
-    //   // ]
-    // }
+    {
+      schoolName: "Northeastern University",
+      logo: require("./assets/images/northeastern.png"),
+      subHeader: "Master's in Computer Science",
+      duration: "September 2024 - May 2026",
+      // desc: "Magna Cum Laude",
+      // descBullets: [
+      //   "Major: Computer Science (Honors)",
+      //   "Minor: Mathematics"
+      // ]
+    }
   ]
 };
 
@@ -204,22 +204,6 @@ const bigProjects = {
     //   ]
     // },
     {
-      image: require("./assets/images/cars.jpg"),
-      projectName: "Car rental website",
-      projectDesc: "Allows users to browse and search for available cars to rent.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://car-showcase-kappa-lac.vercel.app/"
-        },
-        {
-          name: "GitHub",
-          url: "https://github.com/EthanCoomber/Car_showcase"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
       image: require("./assets/images/youtube-red.jpeg"),
       projectName: "YouTube Clone",
       projectDesc: "Allows users to enjoy many of the same operations as youtube.",
@@ -235,6 +219,23 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    {
+      image: require("./assets/images/cars.jpg"),
+      projectName: "Car rental website",
+      projectDesc: "Allows users to browse and search for available cars to rent.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://car-showcase-kappa-lac.vercel.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/EthanCoomber/Car_showcase"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    
     // {
     //   image: require("./assets/images/learning.webp"),
     //   projectName: "Quiz Platform",
