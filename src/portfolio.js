@@ -204,6 +204,21 @@ const bigProjects = {
     //   ]
     // },
     {
+      image: require("./assets/images/bank.avif"),
+      projectName: "Banking Platform",
+      projectDesc: "Allows users to track their finances, connect bank accounts, and transfer money between accounts",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://banking-navy-theta.vercel.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/EthanCoomber/banking"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/youtube-red.jpeg"),
       projectName: "YouTube Clone",
       projectDesc: "Allows users to enjoy many of the same operations as youtube.",
@@ -234,23 +249,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
-    
-    // {
-    //   image: require("./assets/images/learning.webp"),
-    //   projectName: "Quiz Platform",
-    //   projectDesc: "Allows users to add study sets and take quizzes while tracking their progress",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Website",
-    //       url: "https://quiz-6ceb9.web.app/"
-    //     },
-    //     {
-    //       name: "GitHub",
-    //       url: "https://github.com/EthanCoomber/quiz_platform"
-    //     }
-    //   ]
-    // }
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
