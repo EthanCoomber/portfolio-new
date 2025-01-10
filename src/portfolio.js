@@ -26,7 +26,7 @@ const greeting = {
     "I'm a passionate full-stack software developer! I have experience building web and mobile applications with React / JavaScript / Node.js among other libraries and frameworks."
   ),
   resumeLink:
-    require("./assets/resume/2024_job_resume.pdf"), // Set to empty to hide the button
+    require("./assets/resume/Ethan_Coomber_Resume_2025.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -148,26 +148,46 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineering Intern",
-      company: "Publicis Sapient",
-      companylogo: require("./assets/images/publicisSapient.jpeg"),
-      date: "June 2022 – August 2022",
-      desc: "Deployed a financial portfolio app with real-time stock data and high-speed trade executions",
+      role: "Senior Software Developer",
+      company: "Earth Brands",
+      companylogo: require("./assets/images/earthbrands.jpeg"), 
+      date: "January 2025 – Present",
+      desc: "Led development of e-commerce platform and ERP system",
       descBullets: [
-        "Utilized React Native and Figma for frontend interface/design and Java Spring Boot, GraphQL, and PostgreSQL for backend development.",
-        "Completed an intensive 3-week full stack development course, gained experience in frontend technologies (React, Angular), databases (MongoDB, NoSQL, MySQL), and backend services (REST APIs, Spring Boot)."
+        "Created internal tools driving 60% process improvement",
+        "Optimized website stability and functionality"
       ]
     },
     {
-      role: "Software Developer",
+      role: "Software Developer", 
       company: "Earth Brands",
       companylogo: require("./assets/images/earthbrands.jpeg"),
-      date: "February 2024 – Present",
-      desc: "Developing a custom B2B portal facilitating client purchases of Earth Brands’ products. ",
+      date: "April 2024 – January 2025",
+      desc: "Built B2B e-commerce portal increasing online revenue by 250%",
       descBullets: [
-        "Utilize React Native, GraphQL, Javascript, and Next.js for full-stack development.",
-        "Work with Sales and Marketing departments to identify improvements and enhance user experience."
-
+        "Developed order management tool improving revenue by 40%",
+        "Built full-stack solutions using React Native, GraphQL, AWS"
+      ]
+    },
+    {
+      role: "Software Development Intern",
+      company: "Earth Brands",
+      companylogo: require("./assets/images/earthbrands.jpeg"),
+      date: "February 2024 – April 2024", 
+      desc: "Integrated subscription and payment systems",
+      descBullets: [
+        "Built automated email alert system",
+        "Implemented prime membership program features"
+      ]
+    },
+    {
+      role: "Software Development Intern",
+      company: "Publicis Sapient", 
+      companylogo: require("./assets/images/publicisSapient.jpeg"),
+      date: "June 2022 – August 2022",
+      desc: "Built financial portfolio app with real-time trading using React Native and Spring Boot",
+      descBullets: [
+        "Completed full-stack training in React, Angular, MongoDB and Spring Boot"
       ]
     }
   ]
@@ -204,24 +224,24 @@ const bigProjects = {
     //   ]
     // },
     {
-      image: require("./assets/images/bank.avif"),
-      projectName: "Banking Platform",
-      projectDesc: "Allows users to track their finances, connect bank accounts, and transfer money between accounts",
+      image: require("./assets/images/excersize.jpg"),
+      projectName: "Health Tracker",
+      projectDesc: "A comprehensive fitness tracking application that enables users to log workouts, monitor nutrition, track body measurements, and visualize progress through interactive charts and statistics",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://banking-navy-theta.vercel.app/"
+          url: "https://health-tracker-snowy.vercel.app/dashboard"
         },
         {
           name: "GitHub",
-          url: "https://github.com/EthanCoomber/banking"
+          url: "https://github.com/EthanCoomber/health_tracker"
         }
       ]
     },
     {
       image: require("./assets/images/youtube-red.jpeg"),
       projectName: "YouTube Clone",
-      projectDesc: "Allows users to enjoy many of the same operations as youtube.",
+      projectDesc: "A feature-rich video platform that replicates core YouTube functionality, including video search, playback, channel browsing, and responsive design for an authentic user experience.",
       footerLink: [
         {
           name: "Visit Website",
@@ -234,22 +254,22 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/cars.jpg"),
-      projectName: "Car rental website",
-      projectDesc: "Allows users to browse and search for available cars to rent.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://car-showcase-kappa-lac.vercel.app/"
-        },
-        {
-          name: "GitHub",
-          url: "https://github.com/EthanCoomber/Car_showcase"
-        }
-        //  you can add extra buttons here.
-      ]
-    }
+    // {
+    //   image: require("./assets/images/cars.jpg"),
+    //   projectName: "Car rental website",
+    //   projectDesc: "Allows users to browse and search for available cars to rent.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://car-showcase-kappa-lac.vercel.app/"
+    //     },
+    //     {
+    //       name: "GitHub",
+    //       url: "https://github.com/EthanCoomber/Car_showcase"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };

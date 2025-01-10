@@ -1,10 +1,11 @@
 {
   "author": "Ethan Coomber",
-  "name": "Ethan's Portfolio",
+  "name": "ethans-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ethan'sPortfolio.com",
+  "homepage": "https://ethansportfolio.com",
   "dependencies": {
+    "ajv": "^8.17.1",
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
