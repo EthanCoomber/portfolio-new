@@ -1,34 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed84f843.css",
-    "main.js": "/static/js/main.b58086ed.js",
-    "static/css/64.0774fdc1.chunk.css": "/static/css/64.0774fdc1.chunk.css",
-    "static/js/64.073ba154.chunk.js": "/static/js/64.073ba154.chunk.js",
-    "static/css/769.2283eebb.chunk.css": "/static/css/769.2283eebb.chunk.css",
-    "static/js/769.8c65f0fc.chunk.js": "/static/js/769.8c65f0fc.chunk.js",
+    "main.css": "/static/css/main.3d130638.css",
+    "main.js": "/static/js/main.66314eda.js",
+    "static/css/487.a47157e7.chunk.css": "/static/css/487.a47157e7.chunk.css",
+    "static/js/487.00bd5c65.chunk.js": "/static/js/487.00bd5c65.chunk.js",
+    "static/css/990.3512e648.chunk.css": "/static/css/990.3512e648.chunk.css",
+    "static/js/990.bac6d679.chunk.js": "/static/js/990.bac6d679.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/middleburyLogo.png": "/static/media/middleburyLogo.b994f791107e742e8f6c.png",
-    "static/media/cars.jpg": "/static/media/cars.63615f4dc4500c5c0bb3.jpg",
-    "static/media/2024_job_resume.pdf": "/static/media/2024_job_resume.7b76ed571e9efc1ea666.pdf",
+    "static/media/Ethan_Coomber_Resume_2025.pdf": "/static/media/Ethan_Coomber_Resume_2025.257f641f1da6f8e31a42.pdf",
     "static/media/publicisSapient.jpeg": "/static/media/publicisSapient.28c10017118268678250.jpeg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/excersize.jpg": "/static/media/excersize.c9d41f596d86d4cb8427.jpg",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/earthbrands.jpeg": "/static/media/earthbrands.191ebfb14ae1cbd7c406.jpeg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/bank.avif": "/static/media/bank.649f5ab72c371793d3e8.avif",
     "static/media/northeastern.png": "/static/media/northeastern.989de61b1684d19f291d.png",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.ed84f843.css.map": "/static/css/main.ed84f843.css.map",
-    "main.b58086ed.js.map": "/static/js/main.b58086ed.js.map",
-    "64.0774fdc1.chunk.css.map": "/static/css/64.0774fdc1.chunk.css.map",
-    "64.073ba154.chunk.js.map": "/static/js/64.073ba154.chunk.js.map",
-    "769.2283eebb.chunk.css.map": "/static/css/769.2283eebb.chunk.css.map",
-    "769.8c65f0fc.chunk.js.map": "/static/js/769.8c65f0fc.chunk.js.map"
+    "main.3d130638.css.map": "/static/css/main.3d130638.css.map",
+    "main.66314eda.js.map": "/static/js/main.66314eda.js.map",
+    "487.a47157e7.chunk.css.map": "/static/css/487.a47157e7.chunk.css.map",
+    "487.00bd5c65.chunk.js.map": "/static/js/487.00bd5c65.chunk.js.map",
+    "990.3512e648.chunk.css.map": "/static/css/990.3512e648.chunk.css.map",
+    "990.bac6d679.chunk.js.map": "/static/js/990.bac6d679.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed84f843.css",
-    "static/js/main.b58086ed.js"
+    "static/css/main.3d130638.css",
+    "static/js/main.66314eda.js"
   ]
 }
