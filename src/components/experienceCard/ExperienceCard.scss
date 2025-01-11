@@ -31,7 +31,7 @@
   -o-filter: blur(0px);
   -ms-filter: blur(0px);
   filter: blur(0px);
-  height: 11rem;
+  height: 9rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -45,7 +45,7 @@
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-  height: 11rem;
+  height: 9rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -55,7 +55,7 @@
 .experience-div-company {
   position: absolute;
   background: transparent;
-  height: 9rem;
+  height: 7rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -66,10 +66,10 @@
 
 .experience-text-company {
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   margin: 0;
   color: $lightBackground1;
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
   font-weight: 700;
   text-overflow: ellipsis;
@@ -82,75 +82,110 @@
   object-fit: cover;
   left: 0;
   right: 0;
-  top: 7rem;
+  top: 5rem;
   margin-left: auto;
   margin-right: auto;
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
 }
 
 .experience-text-role {
-  text-align: center;
   color: $textColor;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 22px;
   margin: 0px;
-  padding-top: 1.5rem;
   line-height: normal;
 }
+
 .dark-mode-text {
   color: $textColorDark !important;
 }
+
 .experience-text-date {
-  text-align: center;
   color: $textColor;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0px;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   font-weight: 600;
 }
 
 .experience-text-desc {
-  text-align: center;
+  text-align: left;
+  margin: 0.5rem 0;
 }
 
 .experience-text-details {
   padding: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+}
+
+.experience-position-details {
+  margin-bottom: 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: $lightBorder1;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+}
+
+.experience-header {
+  position: relative;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.experience-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  
+  &.expanded {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in;
+  }
+}
+
+.experience-bullets {
+  list-style-type: disc;
+  padding-left: 2rem;
+  margin-top: 1rem;
 }
 
 /* Media Query */
 
 @media (max-width: 1380px) {
   .experience-text-role {
-    padding-top: 0.5rem;
-    font-size: 22px;
+    font-size: 20px;
   }
   .experience-text-company {
-    font-size: 22px;
+    font-size: 20px;
   }
   .experience-text-date {
-    font-size: 18px;
+    font-size: 16px;
   }
   .experience-roundedimg {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 6rem;
+    height: 6rem;
   }
 }
 
 @media (max-width: 768px) {
   .experience-text-role {
-    font-size: 22px;
+    font-size: 20px;
   }
   .experience-text-company {
-    font-size: 22px;
+    font-size: 20px;
   }
   .experience-text-date {
-    font-size: 18px;
+    font-size: 16px;
   }
   .experience-text-desc {
-    font-size: 16px;
+    font-size: 14px;
   }
 }

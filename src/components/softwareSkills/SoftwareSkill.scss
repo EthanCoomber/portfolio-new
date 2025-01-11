@@ -27,39 +27,75 @@
 
   &.fa-java {
     color: #007396;
+    &:hover {
+      color: lighten(#007396, 15%);
+    }
   }
   &.fa-js {
-    color: #F7DF1E; 
+    color: #F7DF1E;
+    &:hover {
+      color: lighten(#F7DF1E, 15%);
+    } 
   }
   &.fa-python {
     color: #3776AB;
+    &:hover {
+      color: lighten(#3776AB, 15%);
+    }
   }
   &.fa-react {
     color: #61DAFB;
+    &:hover {
+      color: lighten(#61DAFB, 15%);
+    }
   }
   &.fa-html5 {
     color: #E34F26;
+    &:hover {
+      color: lighten(#E34F26, 15%);
+    }
   }
   &.fa-css3-alt {
     color: #1572B6;
+    &:hover {
+      color: lighten(#1572B6, 15%);
+    }
   }
   &.fa-node {
     color: #339933;
+    &:hover {
+      color: lighten(#339933, 15%);
+    }
   }
   &.fa-npm {
     color: #CB3837;
+    &:hover {
+      color: lighten(#CB3837, 15%);
+    }
   }
   &.fa-database {
     color: #336791;
+    &:hover {
+      color: lighten(#336791, 15%);
+    }
   }
   &.fa-aws {
     color: #FF9900;
+    &:hover {
+      color: lighten(#FF9900, 15%);
+    }
   }
   &.fa-fire {
     color: #FFCA28;
+    &:hover {
+      color: lighten(#FFCA28, 15%);
+    }
   }
   &.fa-docker {
     color: #2496ED;
+    &:hover {
+      color: lighten(#2496ED, 15%);
+    }
   }
 }
 

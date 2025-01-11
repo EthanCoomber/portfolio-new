@@ -1,9 +1,11 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
+  const [expandedPositions, setExpandedPositions] = useState({});
   const imgRef = createRef();
 
   function getColorArrays() {
@@ -16,6 +18,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
       ? null
       : "rgb(" + values.join(", ") + ")";
   }
+
+  const toggleExpand = (index) => {
+    setExpandedPositions(prev => ({
+      ...prev,
+      [index]: !prev[index]
+    }));
+  };
 
   const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
@@ -48,36 +57,55 @@ export default function ExperienceCard({cardInfo, isDark}) {
         />
       </div>
       <div className="experience-text-details">
-        <h5
-          className={
-            isDark
-              ? "experience-text-role dark-mode-text"
-              : "experience-text-role"
-          }
-        >
-          {cardInfo.role}
-        </h5>
-        <h5
-          className={
-            isDark
-              ? "experience-text-date dark-mode-text"
-              : "experience-text-date"
-          }
-        >
-          {cardInfo.date}
-        </h5>
-        <p
-          className={
-            isDark
-              ? "subTitle experience-text-desc dark-mode-text"
-              : "subTitle experience-text-desc"
-          }
-        >
-          {cardInfo.desc}
-        </p>
-        <ul>
-          <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
-        </ul>
+        {cardInfo.positions.map((position, index) => (
+          <div key={index} className="experience-position-details">
+            <div 
+              className={`experience-header ${expandedPositions[index] ? 'expanded' : ''}`}
+              onClick={() => toggleExpand(index)}
+              style={{cursor: 'pointer', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}
+            >
+              <div>
+                <h5
+                  className={
+                    isDark
+                      ? "experience-text-role dark-mode-text"
+                      : "experience-text-role"
+                  }
+                >
+                  {position.role}
+                </h5>
+                <h5
+                  className={
+                    isDark
+                      ? "experience-text-date dark-mode-text"
+                      : "experience-text-date"
+                  }
+                >
+                  {position.date}
+                </h5>
+              </div>
+              {expandedPositions[index] ? (
+                <FaChevronUp className={isDark ? "dark-mode-text" : ""} />
+              ) : (
+                <FaChevronDown className={isDark ? "dark-mode-text" : ""} />
+              )}
+            </div>
+            <div className={`experience-content ${expandedPositions[index] ? 'expanded' : ''}`}>
+              <p
+                className={
+                  isDark
+                    ? "subTitle experience-text-desc dark-mode-text"
+                    : "subTitle experience-text-desc"
+                }
+              >
+                {position.desc}
+              </p>
+              <ul className="experience-bullets">
+                <GetDescBullets descBullets={position.descBullets} isDark={isDark} />
+              </ul>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -148,46 +148,50 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Software Developer",
-      company: "Earth Brands",
-      companylogo: require("./assets/images/earthbrands.jpeg"), 
-      date: "January 2025 – Present",
-      desc: "Led development of e-commerce platform and ERP system",
-      descBullets: [
-        "Created internal tools driving 60% process improvement",
-        "Optimized website stability and functionality"
-      ]
-    },
-    {
-      role: "Software Developer", 
       company: "Earth Brands",
       companylogo: require("./assets/images/earthbrands.jpeg"),
-      date: "April 2024 – January 2025",
-      desc: "Built B2B e-commerce portal increasing online revenue by 250%",
-      descBullets: [
-        "Developed order management tool improving revenue by 40%",
-        "Built full-stack solutions using React Native, GraphQL, AWS"
+      positions: [
+        {
+          role: "Senior Software Developer",
+          date: "January 2025 – Present",
+          desc: "Led development of e-commerce platform and ERP system",
+          descBullets: [
+            "Created internal tools driving 60% process improvement",
+            "Optimized website stability and functionality"
+          ]
+        },
+        {
+          role: "Software Developer",
+          date: "April 2024 – January 2025", 
+          desc: "Built B2B e-commerce portal increasing online revenue by 250%",
+          descBullets: [
+            "Developed order management tool improving revenue by 40%",
+            "Built full-stack solutions using React Native, GraphQL, AWS"
+          ]
+        },
+        {
+          role: "Software Development Intern",
+          date: "February 2024 – April 2024",
+          desc: "Integrated subscription and payment systems",
+          descBullets: [
+            "Built automated email alert system",
+            "Implemented prime membership program features"
+          ]
+        }
       ]
     },
     {
-      role: "Software Development Intern",
-      company: "Earth Brands",
-      companylogo: require("./assets/images/earthbrands.jpeg"),
-      date: "February 2024 – April 2024", 
-      desc: "Integrated subscription and payment systems",
-      descBullets: [
-        "Built automated email alert system",
-        "Implemented prime membership program features"
-      ]
-    },
-    {
-      role: "Software Development Intern",
-      company: "Publicis Sapient", 
+      company: "Publicis Sapient",
       companylogo: require("./assets/images/publicisSapient.jpeg"),
-      date: "June 2022 – August 2022",
-      desc: "Built financial portfolio app with real-time trading using React Native and Spring Boot",
-      descBullets: [
-        "Completed full-stack training in React, Angular, MongoDB and Spring Boot"
+      positions: [
+        {
+          role: "Software Development Intern",
+          date: "June 2022 – August 2022",
+          desc: "Built financial portfolio app with real-time trading using React Native and Spring Boot",
+          descBullets: [
+            "Completed full-stack training in React, Angular, MongoDB and Spring Boot"
+          ]
+        }
       ]
     }
   ]

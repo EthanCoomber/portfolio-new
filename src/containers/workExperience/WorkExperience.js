@@ -22,11 +22,13 @@ export default function WorkExperience() {
                       isDark={isDark}
                       cardInfo={{
                         company: card.company,
-                        desc: card.desc,
-                        date: card.date,
                         companylogo: card.companylogo,
-                        role: card.role,
-                        descBullets: card.descBullets
+                        positions: card.positions.map(position => ({
+                          role: position.role,
+                          date: position.date,
+                          desc: position.desc,
+                          descBullets: position.descBullets
+                        }))
                       }}
                     />
                   );
