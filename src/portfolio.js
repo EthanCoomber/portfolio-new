@@ -152,7 +152,7 @@ const workExperiences = {
       companylogo: require("./assets/images/earthbrands.jpeg"),
       positions: [
         {
-          role: "Senior Software Developer",
+          role: "Software Developer II",
           date: "January 2025 – Present",
           desc: "Led development of e-commerce platform and ERP system",
           descBullets: [
