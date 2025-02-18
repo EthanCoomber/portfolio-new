@@ -130,7 +130,7 @@ const educationInfo = {
       schoolName: "Northeastern University",
       logo: require("./assets/images/northeastern.png"),
       subHeader: "Master's in Computer Science",
-      duration: "September 2024 - May 2025",
+      duration: "September 2024 - April 2025",
       // desc: "Magna Cum Laude",
       // descBullets: [
       //   "Major: Computer Science (Honors)",
@@ -160,22 +160,22 @@ const workExperiences = {
         },
         {
           role: "Software Developer",
-          date: "April 2024 – January 2025",
+          date: "February 2024 – January 2025",
           desc: "Built B2B e-commerce portal increasing online revenue by 250%",
           descBullets: [
             "Developed order management tool improving revenue by 40%",
             "Built full-stack solutions using React Native, GraphQL, AWS",
           ],
         },
-        {
-          role: "Software Development Intern",
-          date: "February 2024 – April 2024",
-          desc: "Integrated subscription and payment systems",
-          descBullets: [
-            "Built automated email alert system",
-            "Implemented prime membership program features",
-          ],
-        },
+        // {
+        //   role: "Software Development Intern",
+        //   date: "February 2024 – April 2024",
+        //   desc: "Integrated subscription and payment systems",
+        //   descBullets: [
+        //     "Built automated email alert system",
+        //     "Implemented prime membership program features",
+        //   ],
+        // },
       ],
     },
     {
