@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "I'm a passionate full-stack software developer! I have experience building web and mobile applications with React / JavaScript / Node.js among other libraries and frameworks."
   ),
-  resumeLink: require("./assets/resume/Ethan_Coomber_Resume_2025.pdf"), // Set to empty to hide the button
+  resumeLink: require("./assets/resume/Ethan_Coomber_Resume.pdf"), // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
