@@ -146,27 +146,33 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      company: "Toast",
+      companylogo: require("./assets/images/toast.png"),
+      positions: [
+        {
+          role: "Software Engineer",
+          date: "July 2025 – Present",
+          desc: "Software Engineer on the Care Experience Team",
+          descBullets: [
+            "Enhanced customer support tools used by 10k+ restaurants, optimizing performance and ensuring a smooth user experience.",
+            "Built full-stack solutions using Java, AWS, and TypeScript",
+          ],
+        },
+      ],
+    },
+    {
       company: "Earth Brands",
       companylogo: require("./assets/images/earthbrands.jpeg"),
       positions: [
         {
-          role: "Software Developer II",
-          date: "January 2025 – Present",
-          desc: "Led development of e-commerce platform and ERP system",
-          descBullets: [
-            "Created internal tools driving 60% process improvement",
-            "Optimized website stability and functionality",
-          ],
-        },
-        {
           role: "Software Developer",
-          date: "February 2024 – January 2025",
+          date: "February 2024 – July 2025",
           desc: "Built B2B e-commerce portal increasing online revenue by 250%",
           descBullets: [
             "Developed order management tool improving revenue by 40%",
             "Built full-stack solutions using React Native, GraphQL, AWS",
           ],
-        },
+        }
         // {
         //   role: "Software Development Intern",
         //   date: "February 2024 – April 2024",
@@ -381,3 +387,5 @@ export {
   twitterDetails,
   isHireable,
 };
+
+
