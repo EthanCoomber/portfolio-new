@@ -3,6 +3,9 @@
   "name": "ethans-portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "homepage": "https://ethansportfolio.com",
   "dependencies": {
     "ajv": "^8.17.1",
