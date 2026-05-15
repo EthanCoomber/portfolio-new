@@ -129,7 +129,7 @@ const educationInfo = {
     {
       schoolName: "Northeastern University",
       logo: require("./assets/images/northeastern.png"),
-      subHeader: "Master's in Computer Science",
+      subHeader: "Masters in Computer Science",
       duration: "September 2024 - May 2026",
       // desc: "Magna Cum Laude",
       // descBullets: [
@@ -190,7 +190,7 @@ const workExperiences = {
       positions: [
         {
           role: "Software Development Intern",
-          date: "June 2022 – August 2022",
+          date: "June 2023 – August 2023",
           desc: "Built financial portfolio app with real-time trading using React Native and Spring Boot",
           descBullets: [
             "Completed full-stack training in React, Angular, MongoDB and Spring Boot",
